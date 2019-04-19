@@ -1,5 +1,6 @@
 ## Welcome to the rainbowRoller blog! 
 
+This foam roller is like no other and incorporates user data about pressure and speed of rolling to enhance user experience. This data would ultimately be shared with physicians that can better track and suggest individualized rolling patterns to improve patient outcomes.
 
 <!---
 You can use the [editor on GitHub](https://github.com/shannon3297/rainbowRoller/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
