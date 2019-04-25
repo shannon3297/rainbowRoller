@@ -33,3 +33,4 @@ We also moved the circuit to a smaller breadboard in preparation for putting it 
 
 
 Moving forward, we are aiming to finish integrating these parts into one on the roller. We plan to discuss a way to bring our project up to the next level with Dr. Rahul tomorrow. We currently envision personalizing a rolling routine based on the target muscle group and body type and/or improving on data collection and data output feedback.
+
