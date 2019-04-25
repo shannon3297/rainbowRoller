@@ -12,7 +12,7 @@ Tuesday:
 We figured out how to use the gyroscope! The state LEDs now show when the board is being rotated. 
 
 Here's a picture of our circuit as of today (with the pressure sensors unattached):
-![V1 Circuit](https://github.com/shannon3297/rainbowRoller/blob/master/assets/milestone1.jpg)
+![First Circuit](https://github.com/shannon3297/rainbowRoller/blob/master/assets/milestone1.jpg)
 
 We just got a lot of parts in, so going forward towards next week we're hopefully going to start integrating our actual parts. First step is figuring out how to use the pressure sensing sheet, which I think we can do with a voltage divider. 
 
