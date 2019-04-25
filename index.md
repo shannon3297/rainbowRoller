@@ -12,7 +12,7 @@ Tuesday:
 We figured out how to use the gyroscope! The state LEDs now show when the board is being rotated. 
 
 Here's a picture of our circuit as of today (with the pressure sensors unattached):
-![First Circuit](https://github.com/shannon3297/rainbowRoller/blob/master/assets/milestone1.jpg)
+![First Circuit, right click to view](https://github.com/shannon3297/rainbowRoller/blob/master/assets/milestone1.jpg)
 
 We just got a lot of parts in, so going forward towards next week we're hopefully going to start integrating our actual parts. First step is figuring out how to use the pressure sensing sheet, which I think we can do with a voltage divider. 
 
@@ -27,7 +27,7 @@ Moving forwards, there were two main features/changes he was interested in that 
 In the hopes of increasing resolution, we decided to cut the pressure sensor into strips that would fit well onto the roller. We also double the strip over (connecting the sides with electrical tape) based on the suggestions of another group. We are planning to use an analog mux to read in the values of the different strips. This increased the sensitivity a little bit, but we are still looking for a better way to measure different levels of pressure.
 
 Here is a picture of our base circuit:
-![Base Demo Circuit](https://github.com/shannon3297/rainbowRoller/blob/master/assets/circuit2.JPG) 
+![Base Demo Circuit, right click to view](https://github.com/shannon3297/rainbowRoller/blob/master/assets/circuit2.JPG) 
 
 We also moved the circuit to a smaller breadboard in preparation for putting it inside the roller, here's a picture of that:
 
