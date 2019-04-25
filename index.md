@@ -32,4 +32,4 @@ Here is a picture of our base circuit:
 We also moved the circuit to a smaller breadboard in preparation for putting it inside the roller, here's a picture of that:
 
 
-Moving forward, we are aiming to finish integrating these parts into one on the roller. We plan to discuss a way to bring our project up to the next level with Dr. Rahul tomorrow. We're thinking something along the lines of personalizing a rolling routine based on the target muscle group and body type, or doing something with data collection.
+Moving forward, we are aiming to finish integrating these parts into one on the roller. We plan to discuss a way to bring our project up to the next level with Dr. Rahul tomorrow. We currently envision personalizing a rolling routine based on the target muscle group and body type and/or improving on data collection and data output feedback.
