@@ -27,7 +27,7 @@ Moving forwards, there were two main features/changes he was interested in that 
 In the hopes of increasing resolution, we decided to cut the pressure sensor into strips that would fit well onto the roller. We also double the strip over (connecting the sides with electrical tape) based on the suggestions of another group. We are planning to use an analog mux to read in the values of the different strips. This increased the sensitivity a little bit, but we are still looking for a better way to measure different levels of pressure.
 
 Here is a picture of our base circuit:
-![Base Demo Circuit]({{site.url}/assets/circuit2.jpg) 
+![Base Demo Circuit](https://github.com/shannon3297/rainbowRoller/blob/master/assets/circuit2.JPG) 
 
 We also moved the circuit to a smaller breadboard in preparation for putting it inside the roller, here's a picture of that:
 
