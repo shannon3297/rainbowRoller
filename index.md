@@ -36,5 +36,5 @@ Moving forward, we are aiming to finish integrating these parts into one on the 
 
 Baseline Demo:
 This week, we focused on design implementation and worked to develop a more compact system. To do so, we teamed up with Hal who helped us drill a slit through the roller so that we could tuck the flaps of the pressure sensor inside and continue to use alligator clips to connect pressure readings to the mbed. We also successfully powered the entire system with a battery pack also hidden inside the roller. Moving forward, we are looking to experiment with the placement of the LED strip, though we are finding that the lights are bright and give feedback well when laying horizontal to the roller. 
-![Baseline Product ](https://github.com/shannon3297/rainbowRoller/blob/master/assets/baseline.png)
+![Baseline Product, right click to view](https://github.com/shannon3297/rainbowRoller/blob/master/assets/baseline.png)
 
