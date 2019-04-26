@@ -39,4 +39,6 @@ This week, we focused on design implementation and worked to develop a more comp
 ![Baseline Product, right click to view](https://github.com/shannon3297/rainbowRoller/blob/master/assets/baseline.png)
 
 
-Talk about meeting with Rahul and Sarah Rottenberg
+On Monday we met with Rahul, who told us our project was too simple and also badly implemented. Our biggest issue was the pressure sensors - both how we were attaching them to the roller and how we were reading from them. He also gave us the feedback that we needed to make a more complex circuit.
+
+By Rahul's suggestion, we met with Sarah Rottenberg on Thursday. Sarah was super helpful and gave us a lot of design ideas about the best way to package our roller together. She suggested using PVC pipe to extend the roller a little bit and give us a surface to hold things such as the LED strip. She also suggested adding a feature to remind people to roll - she pointed out that her biggest issue with rolling is that she never does it. Based on this we were thinking about adding an ultrasonic sensor and having the LED strip flash when a person walks by it, to help remind people that they need to use the roller without wasting battery by flashing all the time. We thought this would also achieve Rahul's request for a more complex circuit. 
