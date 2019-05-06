@@ -1,15 +1,17 @@
-Milestone 1!
+Welcome to the journey of developing rainbow roller!
+
+Milestone 1
 
 Sunday:
-We spent a long time trying to get an external LED to blink on the beagle bone. We realized we didn't have the right connectors, and we also couldn't figure out how to really run code on the beagle bone. For running code, we started out trying to ssh in and run things from the command line, but after lots of googling it seemed like using the cloud9 IDE was the way to go. We spent some time messing around with that and then decided that we were going to switch to an mBed. We initially chose to use the beagle bone when we thought we would need wifi, which we no longer need, and the mbed is much smaller.
+After many attempts trying to code through beagle bone through ssh and command line inputs from terminal and using the cloud9IDE, we decided to pivot to using an mBed. Part of why we initially chose to use the beagle bone was that it carried wifi capabilities. However, we no longer need the wifi component and the smaller size of the mbed is more practical for our use cases.
 
 Monday:
 We wrote code to have pressure sensors and an accelerometer control state LEDs. The pressure sensor turns on the red LED when it's being pressed, and the blue LED when it isn't being pressed. This isn't the actual pressure sensor we will use for the final project, but it helped us think through the logic of the project and write some of the code. The accelerometer flashed an LED red when it sensed acceleration in the x-direction, and put on the blue LED when it didn't.
 
-We tried to start writing code that could use the accelerometer data to sense when specifically the roller was turning. I was thinking that it would a combination of two axes, but when we started actually trying to write it seemed very difficult. After talking to Kim, we realized we should actually be using a gyroscope, so we got one from Detkin.
+We tried to start writing code that could use the accelerometer data to sense when specifically the roller was turning. I was thinking that it would a combination of two axes, but when we started actually trying to write it seemed very difficult. After talking to Kim, we realized we should actually be using a gyro-accelerometer, which we got our hands on as Hal left and plan on playing around with tomorrow!
 
 Tuesday: 
-We figured out how to use the gyroscope! The state LEDs now show when the board is being rotated. 
+We successfully figured out how to use the gyro-accelerometer and the state LEDs now show when the board is being rotated. 
 
 Here's a picture of our circuit as of today (with the pressure sensors unattached):
 ![First Circuit, right click to view](https://github.com/shannon3297/rainbowRoller/blob/master/assets/milestone1.jpg)
