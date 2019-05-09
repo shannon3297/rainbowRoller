@@ -49,7 +49,9 @@ Bouncing back, we met with Sarah Rottenberg on Thursday. Sarah was extremely hel
 Looking forward to the reach demo, we aimed to create a more compact system and perform real-time data analysis on the effectiveness of the rolling session.
 
 ## Reach Demo:
-We successfully compacted the roller into a closed loop, standalone system as pictured here: ![Right click to view](https://github.com/shannon3297/rainbowRoller/blob/master/assets/reach.png). As for data analysis, we prototyped a feedback system that would output different colored lights to the user after the rolling session depending on how well they performed the routine (applying consistent pressure for 30 seconds then rolling for 30 seconds).
+We successfully compacted the roller into a closed loop, standalone system as pictured here: ![Right click to view](https://github.com/shannon3297/rainbowRoller/blob/master/assets/reach.png)
+
+As for data analysis, we prototyped a feedback system that would output different colored lights to the user after the rolling session depending on how well they performed the routine (applying consistent pressure for 30 seconds then rolling for 30 seconds).
 
 We were proud of the compact system design and are looking to implement more advanced data analysis through mbed serial communication and MATLAB analysis. While we were able to successfully plot the range of rolling (amount of degrees forward vs backward) once, we were not able to get the system working consistently so dropped it for the reach demo but are looking forward to perfecting it for the public demo day.
 
@@ -67,6 +69,6 @@ We started off not applying pressure to the sensor then proceeded to apply const
 5/8:
 Was unfortunately unable to make much progress in our 30 minutes of lab time due to other exam preparation but were able to compact the product back together and plotted pressure and gyro data together: ![See here (right click to view)](https://github.com/shannon3297/rainbowRoller/blob/master/assets/gyro+pressure.jpg)
 
-Reflections:
-This project taught me a lot about the importance of passion and persistence. We also gained a multitude of technical skills in coding in C++, working with mbed, MATLAB data analysis, and compact product packaging, to name a few. Cheers!
+## Reflections:
+This project taught us a lot about the importance of passion and persistence. We also gained a multitude of technical skills in coding in C++, working with mbed, MATLAB data analysis, and compact product packaging, to name a few. Cheers!
 
