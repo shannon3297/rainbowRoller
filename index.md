@@ -1,6 +1,6 @@
 Welcome to the journey of developing rainbow roller!
 
-Milestone 1
+## Milestone 1
 
 Sunday:
 After many attempts trying to code through beagle bone through ssh and command line inputs from terminal and using the cloud9IDE, we decided to pivot to using an mBed. Part of why we initially chose to use the beagle bone was that it carried wifi capabilities. However, we no longer need the wifi component and the smaller size of the mbed is more practical for our use cases.
@@ -18,7 +18,7 @@ Here's a picture of our circuit as of today (with the pressure sensors unattache
 
 We just got a lot of parts in, so going forward towards next week we're hopefully going to start integrating our actual parts. First step is figuring out how to use the pressure sensing sheet, which I think we can do with a voltage divider. 
 
-Milestone 2:
+## Milestone 2:
 Fully armed with all our parts, we successfully coordinated the gyroaccelerometer, pressure sensor, and LED strip to respond 
 to user inputs. Initally, we were able to get the gyroscope to print out values independently, the pressure sensor to print out values independently, and are able to control the LED strip to light up how we wanted. The LED strip was a challenge because there is not much official documentation or data sheets, but we were able to figure it out based on many different sources online. The big problem we ran in to is that when we tried to integrate any of the parts together, the mbed had a HardFault and would crash. Turns out all we needed to do was take out print statements.
 
@@ -36,7 +36,7 @@ We also moved the circuit to a smaller breadboard in preparation for putting it 
 
 Moving forward, we are aiming to finish integrating these parts into one on the roller. We plan to discuss a way to bring our project up to the next level with Dr. Rahul tomorrow. We currently envision personalizing a rolling routine based on the target muscle group and body type and/or improving on data collection and data output feedback.
 
-Baseline Demo:
+## Baseline Demo:
 This week, we focused on design implementation and worked to develop a more compact system. To do so, we teamed up with Hal who helped us drill a slit through the roller so that we could tuck the flaps of the pressure sensor inside and continue to use alligator clips to connect pressure readings to the mbed. We also successfully powered the entire system with a battery pack also hidden inside the roller. Moving forward, we are looking to experiment with the placement of the LED strip, though we are finding that the lights are bright and give feedback well when laying horizontal to the roller. 
 ![Baseline Product, right click to view](https://github.com/shannon3297/rainbowRoller/blob/master/assets/baseline.png)
 
@@ -47,11 +47,12 @@ Bouncing back, we met with Sarah Rottenberg on Thursday. Sarah was extremely hel
 
 Looking forward to the reach demo, we aimed to create a more compact system and perform real-time data analysis on the effectiveness of the rolling session.
 
-Reach Demo:
+## Reach Demo:
 We successfully compacted the roller into a closed loop, standalone system as pictured here: ![Right click to view](https://github.com/shannon3297/rainbowRoller/blob/master/assets/reach.png). As for data analysis, we prototyped a feedback system that would output different colored lights to the user after the rolling session depending on how well they performed the routine (applying consistent pressure for 30 seconds then rolling for 30 seconds).
 
 We were proud of the compact system design and are looking to implement more advanced data analysis through mbed serial communication and MATLAB analysis. While we were able to successfully plot the range of rolling (amount of degrees forward vs backward) once, we were not able to get the system working consistently so dropped it for the reach demo but are looking forward to perfecting it for the public demo day.
 
+## Public Demo:
 5/6:
 We met briefly with Dr. Rahul today who ignited our motivation to continue working. Through SerialTools, CoolTerm, MATLAB, and lots of debugging, we were successfully able to plot the degree of roll vs time per session.  ![See here (right click to view)](https://github.com/shannon3297/rainbowRoller/blob/master/assets/gyro.jpg) As you can see, this particular roll had rather consistent, slow pace of roll in the beginning, then the user stopped using it briefly (between 600-800 ms as seen by the horizontal line), then had jagged rolling. This figure is then automatically saved into the computer and we hope this will enable the patient and physician to better analyze rolling patterns.
 
