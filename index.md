@@ -1,4 +1,4 @@
-Welcome to the journey of developing rainbow roller!
+Welcome to the journey of developing rainbow roller! View the code along with this blog post here: https://github.com/shannon3297/rainbowRoller/blob/master/index.md
 
 ## Milestone 1
 
